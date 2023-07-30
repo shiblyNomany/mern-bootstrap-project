@@ -350,26 +350,42 @@ background-color: #2f55a4 !important;
     max-width: 440px;
     margin-right: 10px;
     margin-left: 25px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: all .5s ease;
     
     
+}
+#service-card-one:hover{
+    /* transform: scale(1.1); */
+    transform: translate(0px,-10px);
 }
 
 #service-card-two{
     background-color:white ;
     max-width: 440px;
     margin-left: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+    transition: all .5s ease;
+ 
     
+}
+#service-card-two:hover{
+    /* transform: scale(1.1); */
+    transform: translate(0px,-10px);
 }
 .searvice-card-div-one{
     padding: 33px 10px 30px 20px;
+   
 }
 .searvice-card-div-two{
     padding: 33px 10px 30px 20px;
+    
 }
  
 .sarvices-card-div-two{
  
     background-color:white ;
+  
 }
 
 
@@ -385,3 +401,83 @@ background-color: #2f55a4 !important;
 
 
 /*-------+++++++++++END SERVICES-section++++++++++++----------*/
+
+
+
+
+
+/*-------+++++++++++Call To Action-section++++++++++++----------*/
+.Call-To-Action{
+
+    background-image: linear-gradient(rgba(47,85,164,.8), rgba(47,85,164,.8)),url(../image/office-Building.jpg);
+    background-size: cover;
+    padding: 120px 0;
+    color: white;
+
+}
+#Call-To-Action-div-one{
+    padding-top: 52px;
+    padding-left: 33px;
+}
+
+#Call-To-Action-div-paragraph{
+    padding-left: 49px;
+    text-align: center;
+}
+.action-h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+}
+.call-to-action-btn{
+    text-align: center;
+    text-decoration: none;
+    color: white;
+     border: 1px solid white;
+     border-radius: 25px;
+     padding: 15px 55px;
+     transition: all 1s ease;
+}
+
+.call-to-action-btn:hover{
+    background-color: #e24545;
+    /* border: none; */
+    border: #e24545;
+}
+
+/*-------+++++++++++END Call To Action-section++++++++++++----------*/
+
+
+/*-------+++++++++++Portfolio-section++++++++++++----------*/
+.portfolio-text{
+ text-align: center;
+ max-width: 922px;
+ font-size: 16px;
+ font-family: 'Open Sans', sans-serif;
+}
+
+
+
+/*-------+++++++++++END Portfolio-section++++++++++++----------*/
+
+
+/*-------++++++++++Clint Testimonial-section++++++++++++----------*/
+
+.Clint-Testimonial{
+    background-color:#f3f5fa  ;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------+++++++++++END Clint Testimonial-section++++++++++++----------*/
