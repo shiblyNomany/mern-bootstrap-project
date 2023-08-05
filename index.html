@@ -18,6 +18,7 @@
 
     <!--Bootstrap CSS link -->
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     
     <!--END Bootstrap CSS link -->
 
 
@@ -39,75 +40,122 @@
 </head>
 <body>
     <!-- =++++++++++++++++++++++++HEADER +++++++++++++++++++++++++-->
-    <header>
-         <div class="container">
-            <div class="row">
-              <div class="col">
-                <nav class="navbar navbar-expand-lg  ">
-                    <div class="container">
-                      <a class="navbar-brand" href="#">SHIBLY</a>
-                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                      </button>
-                      <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav ms-auto">
-                          <li class="nav-item">
-                            <a class="nav-link active hover-me hover-me-fixed" aria-current="page" href="#">Home</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link hover-me" href="#">About</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link hover-me" href="#">Services</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link hover-me" href="#">Portfolio</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link hover-me" href="#">Team</a>
-                          </li>
-                          <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle hover-me" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                              Drop down
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                              <li><a class="dropdown-item" href="#"> Drop down-one</a></li>
-                              <li><a class="dropdown-item" href="#"> Drop down-two </a></li>
-                              <li><a class="dropdown-item" href="#"> Drop down-three </a></li>
-                            </ul>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link hover-me" href="#">Contact</a>
-                          </li>
-                          <li class="nav-item nav-button">
-                            <a class="nav-link  nav-button-item " href="#">Get Started</a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </nav>
-              </div>
-            </div>
+    <header id="header" class="">
 
-            <div class="row align-items-center">
-              <div class="col-6 animate__animated animate__fadeInUp">
-                 <h1 class=" nav-h1-text animate__animated animate__fadeInUp">Better Solutions For Your Business</h1>
-                 <h4 class="nav-h4-text animate__animated animate__fadeInUp">We are team of talented designers making websites with Bootstrap</h4>
-                 <div class="cover-btn-div animate__animated animate__fadeInUp">
-                 <a class="cover-btn-one " href="#">Get Started</a>
-                 <a class="cover-btn-two  " href="#"><i class="fa-solid fa-circle-play"></i>Watch Video</a>
-                </div>
-              </div>
-              <div class="col-6">
-                  <img class="nav-img" src="./image/hero-img-removebg-preview.png" alt="Cover-photo">
-              </div>
-            </div>
+      <!-- <div class="container d-flex align-items-center">
+
+        <h1 class="logo me-auto"><a href="index.html">Arsha</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+<!--   
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li><a class="nav-link scrollto" href="#about">About</a></li>
+            <li><a class="nav-link scrollto" href="#services">Services</a></li>
+            <li><a class="nav-link scrollto" href="#portfolio">Portfolio</a></li>
+            <li><a class="nav-link scrollto" href="#team">Team</a></li>
+            <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 2</a></li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+              </ul>
+            </li>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            <li><a class="getstarted scrollto" href="#about">Get Started</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav><!-- .navbar -->
+  
+      <!-- </div> --> -->
+
+
+
+
+
+
+
+
+
+      <div class="container">
+         <div class="row">
+           <div class="col fixed-top">
+             <nav class="navbar navbar-expand-lg  ">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                       <li class="nav-item">
+                         <a class="nav-link active hover-me hover-me-fixed" aria-current="page" href="#">Home</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link hover-me" href="#">About</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link hover-me" href="#">Services</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link hover-me" href="#">Portfolio</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link hover-me" href="#">Team</a>
+                       </li>
+                       <li class="nav-item dropdown">
+                         <a class="nav-link dropdown-toggle hover-me" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                           Drop down
+                         </a>
+                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                           <li><a class="dropdown-item" href="#"> Drop down-one</a></li>
+                           <li><a class="dropdown-item" href="#"> Drop down-two </a></li>
+                           <li><a class="dropdown-item" href="#"> Drop down-three </a></li>
+                         </ul>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link hover-me" href="#">Contact</a>
+                       </li>
+                       <li class="nav-item nav-button">
+                         <a class="nav-link  nav-button-item " href="#">Get Started</a>
+                       </li>
+                     </ul>
+                   </div>
+                 </div>
+               </nav>
+           </div>
          </div>
 
+         <div class="row align-items-center">
+           <div class="col-6 animate__animated animate__fadeInUp">
+              <h1 class=" nav-h1-text animate__animated animate__fadeInUp">Better Solutions For Your Business</h1>
+              <h4 class="nav-h4-text animate__animated animate__fadeInUp">We are team of talented designers making websites with Bootstrap</h4>
+              <div class="cover-btn-div animate__animated animate__fadeInUp">
+              <a class="cover-btn-one " href="#">Get Started</a>
+              <a class="cover-btn-two  " href="#"><i class="fa-solid fa-circle-play"></i>Watch Video</a>
+             </div>
+           </div>
+           <div class="col-6">
+               <img class="nav-img" src="./image/hero-img-removebg-preview.png" alt="Cover-photo">
+           </div>
+         </div>
+      </div>
 
 
 
-    </header>
+
+ </header>
     <!--+++++++++++++++++++++END HEADER ++++++++++++++++++++++++-->
 
 
@@ -286,7 +334,7 @@
 
            </div>
        </div>
-      </div
+      </div>
     </section>
 
 <!--++++++++++++++++++++++END PROGRESS-section+++++++++++++++++++++++ -->
@@ -345,7 +393,7 @@
          </div>
            </div>
 
-      </div>
+      <!-- </div> -->
     </section>
 <!--++++++++++++++++++++++END SERVICES-section+++++++++++++++++++++++ -->
 
@@ -387,7 +435,7 @@
 
 <!--++++++++++++++++++++++Portfolio-section+++++++++++++++++++++++ -->
 
-    <section class="Portfolio-section">
+    <section class="Portfolio-section py-5 my-5">
         <div class="container">
          <div class="row py-5">
            <div class="col-12">
@@ -399,30 +447,107 @@
 
            </div>
          </div>
-      
+         
 
+         <ul id="portfolio-flters" class="d-flex justify-content-center aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+          <li data-filter=".filter-card">Card</li>
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+        <div id="portfolio-container" class="row portfolio-container aos-init aos-animate" data-aos="fade-up" data-aos-delay="200" >
 
+          <div id="portfolio-item " class="col-lg-4 col-md-6 portfolio-item filter-app" >
+            <div class="portfolio-img"><img src="/image/Product-img (1).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>App</p>
+              <a href="/image/Product-img (1).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="filter-web" class="col-lg-4 col-md-6 portfolio-item filter-web" >
+            <div class="portfolio-img"><img src="/image/Product-img (2).jpgg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>Web</p>
+              <a href="/image/Product-img (2).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="filter-app" class="col-lg-4 col-md-6 portfolio-item filter-app" >
+            <div class="portfolio-img"><img src="/image/Product-img (3).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>App</p>
+              <a href="/image/Product-img (3).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="filter-card" class="col-lg-4 col-md-6 portfolio-item filter-card"  >
+            <div class="portfolio-img"><img src="/image/Product-img (4).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>Card</p>
+              <a href="/image/Product-img (4).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="pr-5" class="col-lg-4 col-md-6 portfolio-item filter-web" style="">
+            <div class="portfolio-img"><img src="/image/Product-img (5).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>Web</p>
+              <a href="/image/Product-img (5).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="pr-6" class="col-lg-4 col-md-6 portfolio-item filter-app" style="">
+            <div class="portfolio-img"><img src="/image/Product-img (6).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>App</p>
+              <a href="/image/Product-img (6).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="pr-7" class="col-lg-4 col-md-6 portfolio-item filter-card" style="">
+            <div class="portfolio-img"><img src="/image/Product-img (7).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>Card</p>
+              <a href="/image/Product-img (7).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="pr-8" class="col-lg-4 col-md-6 portfolio-item filter-card" style="">
+            <div class="portfolio-img"><img src="/image/Product-img (1).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>Card</p>
+              <a href="/image/Product-img (1).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
+          <div id="pr-9" class="col-lg-4 col-md-6 portfolio-item filter-web" style="">
+            <div class="portfolio-img"><img src="/image/Product-img (2).jpg" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4> </h4>
+              <p>Web</p>
+              <a href="/image/Product-img (2).jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
+        </div>
         </div>
     </section>
 
@@ -449,45 +574,101 @@
               <p class="services-paragraph">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
             </div>
           </div>
-          <div class="row">
-              <div class="col-6">
-                   <div class="row ">
-                    <div class="col-4">
-                      <img src="/image/clint (1).jpg" alt="">
-                    </div>
 
-                    <div class="col-8">
-                      <h4></h4>
+          <div class="container row py-5 clint-row">
+            <div class="col-6 p-2 d-flex clint-col-div">
+               <div class="clint-img">
+                <img src="./image/clint (1).jpg" alt="">
+               </div>
+               <div class="clint-content">
+                  <h4>Walter White</h4>
+                  <p>Chief Executive Officer</p>
 
-                    </div>
+                  <p class="divider-2"></p>
+
+                  <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                  <ul class="clint-ul">
+                    <li><i class="fa-brands fa-twitter"></i></li>
+                    <li><i class="fa-brands fa-facebook-f"></i></li>
+                    <li><i class="fa-brands fa-instagram"></i></li>
+                    <li><i class="fa-brands fa-linkedin-in"></i></li>
+                  </ul>
+               </div>
+                
+            </div>
 
 
-                   </div>
-                  
+
+            <div class="col-6 p-2 d-flex clint-col-div-2">
+              <div class="clint-img">
+               <img src="./image/clint (4).jpg" alt="">
               </div>
+              <div class="clint-content">
+                 <h4>Sarah Jhonson</h4>
+                 <p>Product Manager</p>
 
+                 <p class="divider-2"></p>
 
-
-              <div class="col-6">
-
+                 <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+                 <ul class="clint-ul">
+                   <li><i class="fa-brands fa-twitter"></i></li>
+                   <li><i class="fa-brands fa-facebook-f"></i></li>
+                   <li><i class="fa-brands fa-instagram"></i></li>
+                   <li><i class="fa-brands fa-linkedin-in"></i></li>
+                 </ul>
               </div>
+               
+           </div>
 
+        </div>
+
+
+        <div class="container row   clint-row-2">
+          <div class="col-6 p-2 d-flex clint-col-div">
+             <div class="clint-img">
+              <img src="./image/clint (2).jpg" alt="">
+             </div>
+             <div class="clint-content">
+                <h4>Amanda Jepson</h4>
+                <p>Accountant</p>
+
+                <p class="divider-2"></p>
+
+                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
+                <ul class="clint-ul">
+                  <li><i class="fa-brands fa-twitter"></i></li>
+                  <li><i class="fa-brands fa-facebook-f"></i></li>
+                  <li><i class="fa-brands fa-instagram"></i></li>
+                  <li><i class="fa-brands fa-linkedin-in"></i></li>
+                </ul>
+             </div>
+              
           </div>
 
 
 
+          <div class="col-6 p-1 d-flex clint-col-div-2">
+            <div class="clint-img">
+             <img src="./image/clint (3).jpg" alt="">
+            </div>
+            <div class="clint-content">
+               <h4>William Anderson</h4>
+               <p>CTO</p>
 
+               <p class="divider-2"></p>
 
+               <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
+               <ul class="clint-ul">
+                 <li><i class="fa-brands fa-twitter"></i></li>
+                 <li><i class="fa-brands fa-facebook-f"></i></li>
+                 <li><i class="fa-brands fa-instagram"></i></li>
+                 <li><i class="fa-brands fa-linkedin-in"></i></li>
+               </ul>
+            </div>
+             
+         </div>
 
-
-
-
-
-
-
-
-
-
+      </div>
 
 
 
@@ -495,25 +676,411 @@
 
 
         </div>
+
+        
+
+
+
     </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--++++++++++++++++++++++End Clint Testimonial+++++++++++++++++++++++ -->
 
+
+
+<!--++++++++++++++++++++++PRICING section+++++++++++++++++++++++ -->
+
+    <section>
+      <div class="container-fluid py-5">
+        <h1 class="text-center about-us-h1-text">PRICING</h1>
+        <div class="divider"></div>
+       
+        <div class="row">
+          <div class="col-12">
+            <p class="services-paragraph">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+        </div>
+
+        <div class="row container pricing-class py-3">
+          <div class="col-4 pricing-class-1">
+            <p class="Free-Plan" >Free Plan</p>
+            <h1 class="price"><i class="fa-solid fa-dollar-sign"></i><span>0</span></h1>
+            <p class="per-month">per month</p>
+            <ul class="pricing-class-ul">
+              <li><i class="fa-solid fa-check"></i>  Quam adipiscing vitae proin</li>
+              <li><i class="fa-solid fa-check"></i> Nec feugiat nisl pretium</li>
+              <li><i class="fa-solid fa-check"></i> Nulla at volutpat diam uteera</li>
+              <li class="fa-xmark-li"><i class="fa-solid fa-xmark"></i> Pharetra massa massa ultricies</li>
+              <li class="fa-xmark-li"><i class="fa-solid fa-xmark"></i>Massa ultricies mi quis hendrerit</li>
+            </ul>
+            <a class="Get-Started-Btn" href="#">Get Started</a>
+          </div>
+          <div class="col-4 pricing-class-2">
+            <p class="Free-Plan">Business Plan</p>
+            <h1 class="price"><i class="fa-solid fa-dollar-sign"></i><span>29</span></h1>
+            <p class="per-month">per month</p>
+            <ul class="pricing-class-ul">
+              <li><i class="fa-solid fa-check"></i> Quam adipiscing vitae proin</li>
+              <li><i class="fa-solid fa-check"></i> Nec feugiat nisl pretium</li>
+              <li><i class="fa-solid fa-check"></i> Nulla at volutpat diam uteera</li>
+              <li><i class="fa-solid fa-check"></i> Pharetra massa massa ultricies</li>
+              <li><i class="fa-solid fa-check"></i> Massa ultricies mi quis hendrerit</li>
+            </ul>
+            <a class="Get-Started-Btn-2" href="#">Get Started</a>
+          </div>
+          <div class="col-4 pricing-class-3">
+            <p class="Free-Plan">Developer Plan</p>
+            <h1 class="price"><i class="fa-solid fa-dollar-sign"></i><span>49</span></h1>
+            <p class="per-month">per month</p>
+            <ul class="pricing-class-ul">
+              <li><i class="fa-solid fa-check"></i> Quam adipiscing vitae proin</li>
+              <li><i class="fa-solid fa-check"></i> Nec feugiat nisl pretium</li>
+              <li><i class="fa-solid fa-check"></i> Nulla at volutpat diam uteera</li>
+              <li><i class="fa-solid fa-check"></i> Pharetra massa massa ultricies</li>
+              <li><i class="fa-solid fa-check"></i> Massa ultricies mi quis hendrerit</li>
+               
+            </ul>
+            <a class="Get-Started-Btn" href="#">Get Started</a>
+          </div>
+        </div>
+
+
+
+      </div>
+    </section>
+<!--++++++++++++++++++++++END PRICING section+++++++++++++++++++++++ -->
+
+
+
+
+<!--++++++++++++++++++++++FREQUENTLY ASKED QUESTIONS section+++++++++++++++++++++++ -->
+
+    <section class="FREQUENTLY-ASKED-QUESTIONS">
+      <div class="container-fluid">
+        <h1 class="text-center about-us-h1-text">FREQUENTLY ASKED QUESTIONS</h1>
+        <div class="divider"></div>
+       
+        <div class="row">
+          <div class="col-12">
+            <p class="services-paragraph">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+        </div>
+
+
+        <div class="container accordion" id="accordionExample">        
+         <div class="py-2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                <p class=" p-class-one"><span class="number-span">  <i class="fa-regular fa-circle-question"></i> </span>Non consectetur a erat nam at lectus urna duis?</p>
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               This is the second item's accordion body.  It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.  It's also worth noting that just about any HTML can go within the  .accordion-body , though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="py-2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <p class=" p-class-one"><span class="number-span">  <i class="fa-regular fa-circle-question"></i> </span>  Feugiat scelerisque varius morbi enim nunc?</p>
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               This is the second item's accordion body.  It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.  It's also worth noting that just about any HTML can go within the  .accordion-body , though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="py-2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                <p class=" p-class-one"><span class="number-span">  <i class="fa-regular fa-circle-question"></i> </span>Dolor sit amet consectetur adipiscing elit?</p>
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               This is the second item's accordion body.  It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.  It's also worth noting that just about any HTML can go within the  .accordion-body , though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="py-2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                <p class=" p-class-one"><span class="number-span">  <i class="fa-regular fa-circle-question"></i> </span>Tempus quam pellentesque nec nam aliquam sem et tortor consequat?</p>
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               This is the second item's accordion body.  It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.  It's also worth noting that just about any HTML can go within the  .accordion-body , though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="py-2">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                <p class=" p-class-one"><span class="number-span">  <i class="fa-regular fa-circle-question"></i> </span>Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?</p>
+              </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+               This is the second item's accordion body.  It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element.  It's also worth noting that just about any HTML can go within the  .accordion-body , though the transition does limit overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+      
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </section>
+
+
+<!--++++++++++++++++++++++END FREQUENTLY ASKED QUESTIONS section+++++++++++++++++++++++ -->
+
+
+
+<!--++++++++++++++++++++++CONTACT section+++++++++++++++++++++++ -->
+
+    <section>
+      <div class="container-fluid">
+        <h1 class="text-center about-us-h1-text">CONTACT</h1>
+        <div class="divider"></div>
+       
+        <div class="row">
+          <div class="col-12">
+            <p class="services-paragraph">Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          </div>
+        </div>
+
+
+       
+        <div class="row py-4 contact-row ">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <div class="address">
+                <i class="fa-solid fa-location-dot"></i>
+                <div class="text">
+                  <h4>Location:</h4>
+                  <p>51/52 Auyob Ali Street,Dhaka,Bangladesh</p>
+                </div>
+              
+              </div>
+
+              <div class="email">
+                <i class="fa-regular fa-envelope"></i>
+                <div class="text">
+                   <h4>Email:</h4>
+                   <p>info@example.com</p>
+                </div>
+              </div>
+
+              <div class="phone">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <div class="text">
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+              </div>
+
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116833.83196047334!2d90.33711611828984!3d23.780975637460976!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b087026b81%3A0x8fa563bbdd5904c2!2sDhaka!5e0!3m2!1sen!2sbd!4v1690979020990!5m2!1sen!2sbd" width="320" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch-2">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required="">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required="">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required="">
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required=""></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading" </div>
+                <div class="error-message"></div>
+                <div class="sent-message"></div>
+              </div>
+              <div class="text-center sent-msg-btn"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>  
+          
+
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+    </section>
+
+
+<!--++++++++++++++++++++++END CONTACT section+++++++++++++++++++++++ -->
+<!--++++++++++++++++++++++Join-Our-Newsletter section+++++++++++++++++++++++ -->
+
+    <section class="Join-Our-Newsletter">
+       <div class="container-fluid">
+        <div class="row">
+          <div class="col-12 text-center  ">
+            <h4>Join Our Newsletter</h4>
+            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
+            <form class="Subscribe" action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+       </div>
+    </section>
+
+<!--++++++++++++++++++++++END Join-Our-Newsletter section+++++++++++++++++++++++ -->
+
+
+    <footer>
+      <div class="container-fluid">
+         <div class="row">
+           <div class="col-3">
+             <h4>SHIBLY</h4>
+             <p>51/52 Auyob Ali Street,Dhaka,Bangladesh</p>
+             <p>Phone: <span> +1 5589 55488 55</span></p>
+             <p>Email: <span> info@example.com</span></p>
+           </div>
+           <div class="col-3">
+              <h5>Useful Links</h5>
+              <ul>
+                <li><i class="fa-solid fa-chevron-right"></i>Home</li>
+                <li><i class="fa-solid fa-chevron-right"></i>About us</li>
+                <li><i class="fa-solid fa-chevron-right"></i>Services</li>
+                <li><i class="fa-solid fa-chevron-right"></i>Terms of service</li>
+                <li><i class="fa-solid fa-chevron-right"></i>Privacy policy</li>
+              </ul>
+
+           </div>
+           <div class="col-3">
+            <h5>Our Services</h5>
+            <ul>
+              <li><i class="fa-solid fa-chevron-right"></i>Web Design</li>
+              <li><i class="fa-solid fa-chevron-right"></i>Web Development</li>
+              <li><i class="fa-solid fa-chevron-right"></i>Product Management</li>
+              <li><i class="fa-solid fa-chevron-right"></i>Marketing</li>
+              <li><i class="fa-solid fa-chevron-right"></i>Privacy policy</li>
+            </ul>
+
+           </div>
+           <div class="col-3">
+            <h5>Our Services</h5>
+            <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+            <ul>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-brands fa-facebook-f"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+              <li><i class="fa-brands fa-skype"></i></li>
+              <li><i class="fa-brands fa-linkedin-in"></i></li>
+            </ul>
+           </div>
+
+
+
+
+         </div>
+
+         <div class="row">
+        <div class="col-6">
+          <p>© Copyright <span>SHIBLY</span>All Rights Reserved</p>
+        </div>
+        <div class="col-6">
+          <p>Designed by BootstrapMade</p>
+        </div>
+         </div>
+
+
+
+      </div>
+    </footer>
 
 
 
